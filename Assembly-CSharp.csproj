@@ -55,6 +55,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CharacterLocomotion.cs" />
     <Compile Include="Assets\Scripts\CharacterAiming.cs" />
+    <Compile Include="Assets\Scripts\RaycastWeapon.cs" />
+    <Compile Include="Assets\Scripts\CrossHairTarget.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

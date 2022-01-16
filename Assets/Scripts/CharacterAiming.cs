@@ -10,30 +10,46 @@ public class CharacterAiming : MonoBehaviour
     public Rig aimLayer;
 
     Camera mainCamera;
-
-    // Start is called before the first frame update
+    RaycastWeapon weapon;
+   
     void Start()
     {
         mainCamera = Camera.main;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        weapon = GetComponentInChildren<RaycastWeapon>();
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         float yawCamera = mainCamera.transform.rotation.eulerAngles.y;
         transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, yawCamera, 0), turnSpeed * Time.fixedDeltaTime);
     }
 
-    private void Update()
+    private void LateUpdate()
     {
-        if (Input.GetMouseButton(1))
+        if (aimLayer) {
+            if (Input.GetButton("Fire2"))
+            {
+                aimLayer.weight += Time.deltaTime / aimDuration;
+            } else
+            {
+                aimLayer.weight -= Time.deltaTime / aimDuration;
+            }
+        }
+
+        if (Input.GetButtonDown("Fire1"))
         {
-            aimLayer.weight += Time.deltaTime / aimDuration;
-        } else
+            weapon.StartFiring();
+        }
+        if (weapon.isFiring)
         {
-            aimLayer.weight -= Time.deltaTime / aimDuration;
+            weapon.UpdateFiring(Time.deltaTime);
+        }
+        weapon.UpdateBullets(Time.deltaTime);
+        if (Input.GetButtonUp("Fire1"))
+        {
+            weapon.StopFiring();
         }
     }
 }
