@@ -53,10 +53,20 @@
     <UnityVersion>2020.3.0f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CharacterLocomotion.cs" />
-    <Compile Include="Assets\Scripts\CharacterAiming.cs" />
-    <Compile Include="Assets\Scripts\RaycastWeapon.cs" />
     <Compile Include="Assets\Scripts\CrossHairTarget.cs" />
+    <Compile Include="Assets\Scripts\CharacterLocomotion.cs" />
+    <Compile Include="Assets\Scripts\RaycastWeapon.cs" />
+    <Compile Include="Assets\Scripts\ActiveWeapon.cs" />
+    <Compile Include="Assets\WeaponPickUp.cs" />
+    <Compile Include="Assets\Scripts\CharacterAiming.cs" />
+    <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
+    <None Include="Assets\EffectExamples\Magic Effects\Shaders\Ice.shader" />
+    <None Include="Assets\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
+    <None Include="Assets\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
+    <None Include="Assets\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

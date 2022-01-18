@@ -1,0 +1,2 @@
+C:\Users\milos\Desktop\Unity\Projects\Game\obj\Debug\Unity.VisualEffectGraph.Runtime.csproj.AssemblyReference.cache
+C:\Users\milos\Desktop\Unity\Projects\Game\obj\Debug\Unity.VisualEffectGraph.Runtime.csproj.CoreCompileInputs.cache

@@ -1,0 +1,1 @@
+C:\Users\milos\Desktop\Unity\Projects\Game\obj\Debug\com.unity.cinemachine.editor.csproj.CoreCompileInputs.cache
