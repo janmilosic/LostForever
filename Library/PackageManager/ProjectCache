@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637768367999918821
-    m_Hash: 2583505550
+      ticks: 637804646935575222
+    m_Hash: 261433327
   m_LockFileStatus:
     m_FilePath: C:/Users/milos/Desktop/Unity/Projects/Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637780605696712758
-    m_Hash: 3912245078
+      ticks: 637804646945947375
+    m_Hash: 441991767
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -83,7 +83,7 @@ m_PackageAssets:
       - name: com.unity.mathematics
         version: 1.2.1
       - name: com.unity.test-framework
-        version: 1.1.30
+        version: 1.1.31
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -325,9 +325,13 @@ m_PackageAssets:
         - 1.14.1
         - 1.14.4
         - 1.14.7
+        - 1.14.9
+        - 1.14.12
         - 1.15.1
         - 1.15.4
         - 1.15.7
+        - 1.15.9
+        - 1.15.12
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -349,6 +353,8 @@ m_PackageAssets:
         - 1.14.1
         - 1.14.4
         - 1.14.7
+        - 1.14.9
+        - 1.14.12
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -552,6 +558,7 @@ m_PackageAssets:
         - 3.0.7
         - 3.0.9
         - 3.0.10
+        - 3.0.12
         compatible:
         - 1.0.2
         - 1.0.6
@@ -580,13 +587,14 @@ m_PackageAssets:
         - 3.0.7
         - 3.0.9
         - 3.0.10
+        - 3.0.12
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.1
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.30
+        version: 1.1.31
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -614,12 +622,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.12
+    - packageId: com.unity.ide.visualstudio@2.0.14
       testable: 0
       isDirectDependency: 1
-      version: 2.0.12
+      version: 2.0.14
       source: 1
-      resolvedPath: C:\Users\milos\Desktop\Unity\Projects\Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12
+      resolvedPath: C:\Users\milos\Desktop\Unity\Projects\Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.14
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -652,6 +660,7 @@ m_PackageAssets:
         - 2.0.9
         - 2.0.11
         - 2.0.12
+        - 2.0.14
         compatible:
         - 1.0.2
         - 1.0.3
@@ -669,13 +678,14 @@ m_PackageAssets:
         - 2.0.9
         - 2.0.11
         - 2.0.12
-        verified: 2.0.12
+        - 2.0.14
+        verified: 2.0.14
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.30
+        version: 1.1.31
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -695,20 +705,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637720564750000000
+      datePublishedTicks: 637782923640000000
       documentationUrl: 
-      hasRepository: 1
+      hasRepository: 0
       repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: 8d436ff053b9c59677b5e9799208143553cd02d9
+        type: 
+        url: 
+        revision: 
         path: 
-    - packageId: com.unity.ide.vscode@1.2.4
+    - packageId: com.unity.ide.vscode@1.2.5
       testable: 0
       isDirectDependency: 1
-      version: 1.2.4
+      version: 1.2.5
       source: 1
-      resolvedPath: C:\Users\milos\Desktop\Unity\Projects\Game\Library\PackageCache\com.unity.ide.vscode@1.2.4
+      resolvedPath: C:\Users\milos\Desktop\Unity\Projects\Game\Library\PackageCache\com.unity.ide.vscode@1.2.5
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -737,6 +747,7 @@ m_PackageAssets:
         - 1.2.2
         - 1.2.3
         - 1.2.4
+        - 1.2.5
         compatible:
         - 1.0.2
         - 1.0.3
@@ -750,7 +761,8 @@ m_PackageAssets:
         - 1.2.2
         - 1.2.3
         - 1.2.4
-        verified: 1.2.4
+        - 1.2.5
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -766,13 +778,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637660806170000000
+      datePublishedTicks: 637800255360000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
-        revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
+        url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+        revision: b0740c80bfc2440527c317109f7c3d9100132722
         path: 
     - packageId: com.unity.polybrush@1.0.2
       testable: 0
@@ -1006,6 +1018,7 @@ m_PackageAssets:
         - 5.0.0-pre.10
         - 5.0.1
         - 5.0.3
+        - 5.0.4
         compatible:
         - 4.0.2
         - 4.0.3
@@ -1035,6 +1048,7 @@ m_PackageAssets:
         - 5.0.0-pre.10
         - 5.0.1
         - 5.0.3
+        - 5.0.4
         verified: 4.5.2
       dependencies:
       - name: com.unity.settings-manager
@@ -1416,12 +1430,12 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/Graphics.git
         revision: 1342255ea41f4ab7910113c8dc207aecdfd4cf8e
         path: 
-    - packageId: com.unity.test-framework@1.1.30
+    - packageId: com.unity.test-framework@1.1.31
       testable: 0
       isDirectDependency: 1
-      version: 1.1.30
+      version: 1.1.31
       source: 1
-      resolvedPath: C:\Users\milos\Desktop\Unity\Projects\Game\Library\PackageCache\com.unity.test-framework@1.1.30
+      resolvedPath: C:\Users\milos\Desktop\Unity\Projects\Game\Library\PackageCache\com.unity.test-framework@1.1.31
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1468,6 +1482,9 @@ m_PackageAssets:
         - 1.1.27
         - 1.1.29
         - 1.1.30
+        - 1.1.31
+        - 2.0.1-pre.12
+        - 2.0.1-pre.18
         compatible:
         - 1.1.22
         - 1.1.24
@@ -1475,7 +1492,10 @@ m_PackageAssets:
         - 1.1.27
         - 1.1.29
         - 1.1.30
-        verified: 1.1.30
+        - 1.1.31
+        - 2.0.1-pre.12
+        - 2.0.1-pre.18
+        verified: 1.1.31
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -1505,13 +1525,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637702469360000000
+      datePublishedTicks: 637804266210000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-        revision: 4a3f541cb46e2f6875b3a938daba8c7113020873
+        revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
         path: 
     - packageId: com.unity.textmeshpro@3.0.6
       testable: 0
@@ -1768,7 +1788,9 @@ m_PackageAssets:
         - 1.6.1
         - 1.6.2
         - 1.6.3
+        - 1.6.4
         - 1.7.0-pre.1
+        - 1.7.0-pre.2
         compatible:
         - 1.4.6
         - 1.4.7
@@ -1794,7 +1816,9 @@ m_PackageAssets:
         - 1.6.1
         - 1.6.2
         - 1.6.3
+        - 1.6.4
         - 1.7.0-pre.1
+        - 1.7.0-pre.2
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -3965,6 +3989,7 @@ m_PackageAssets:
         - 1.0.0
         - 1.0.5
         - 1.0.6
+        - 2.0.2
         compatible:
         - 0.1.5-preview
         - 0.1.6-preview
@@ -3972,6 +3997,7 @@ m_PackageAssets:
         - 1.0.0
         - 1.0.5
         - 1.0.6
+        - 2.0.2
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
