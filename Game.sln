@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Unive
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary", "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj", "{5CE5103F-BED2-8FF0-1AD2-9F5E1CB3DE12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TerrainTools", "Unity.TerrainTools.csproj", "{DAB79A3E-2D0F-06C3-B17F-AFC43ECA9EBC}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ShaderGraph.Editor", "Unity.ShaderGraph.Editor.csproj", "{D9A6F205-303B-D1FF-884D-1C94FD403B3E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualEffectGraph.Editor", "Unity.VisualEffectGraph.Editor.csproj", "{FDAB4CC3-B27A-C168-FAF9-49C642837198}"
@@ -102,6 +104,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ShaderGraph.Utilities", "Unity.ShaderGraph.Utilities.csproj", "{D8E0BB12-A125-9494-4D41-56F89F912B88}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ProBuilder.AddOns.Editor", "Unity.ProBuilder.AddOns.Editor.csproj", "{3FC66678-66F8-65E7-031E-F14EB43FCE6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TerrainTools.Editor", "Unity.TerrainTools.Editor.csproj", "{5491BFF0-AB7B-D11F-31DA-474FCB137AAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -209,6 +213,10 @@ Global
 		{5CE5103F-BED2-8FF0-1AD2-9F5E1CB3DE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CE5103F-BED2-8FF0-1AD2-9F5E1CB3DE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CE5103F-BED2-8FF0-1AD2-9F5E1CB3DE12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB79A3E-2D0F-06C3-B17F-AFC43ECA9EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB79A3E-2D0F-06C3-B17F-AFC43ECA9EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB79A3E-2D0F-06C3-B17F-AFC43ECA9EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB79A3E-2D0F-06C3-B17F-AFC43ECA9EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D9A6F205-303B-D1FF-884D-1C94FD403B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D9A6F205-303B-D1FF-884D-1C94FD403B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9A6F205-303B-D1FF-884D-1C94FD403B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -313,6 +321,10 @@ Global
 		{3FC66678-66F8-65E7-031E-F14EB43FCE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FC66678-66F8-65E7-031E-F14EB43FCE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FC66678-66F8-65E7-031E-F14EB43FCE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5491BFF0-AB7B-D11F-31DA-474FCB137AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5491BFF0-AB7B-D11F-31DA-474FCB137AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5491BFF0-AB7B-D11F-31DA-474FCB137AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5491BFF0-AB7B-D11F-31DA-474FCB137AAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
