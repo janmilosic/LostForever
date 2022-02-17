@@ -12,6 +12,7 @@ public class RaycastWeapon : MonoBehaviour
         public TrailRenderer tracer;
     }
 
+    public ActiveWeapon.WeaponSlot weaponSlot;
     public bool isFiring = false;
     public int fireRate = 25;
     public float bulletSpeed = 1000.0f;
@@ -22,14 +23,26 @@ public class RaycastWeapon : MonoBehaviour
 
     public string weaponName;
 
+    public int ammoCount;
+    public int clipSize;
+
     public Transform raycastOrigin;
     public Transform raycastDestination;
+
+    public WeaponRecoil recoil;
+    public GameObject magazine;
 
     Ray ray;
     RaycastHit hitInfo;
     float accumulatedTime;
     List<Bullet> bullets = new List<Bullet>();
     float maxLifeTime = 3.0f;
+
+
+    private void Awake()
+    {
+        recoil = GetComponent<WeaponRecoil>();
+    }
 
     Vector3 GetPosition(Bullet bullet)
     {
@@ -53,6 +66,8 @@ public class RaycastWeapon : MonoBehaviour
         isFiring = true;
         accumulatedTime = 0.0f;
         FireBullet();
+
+        recoil.Reset();
     }
 
     public void UpdateFiring(float deltaTime)
@@ -105,14 +120,28 @@ public class RaycastWeapon : MonoBehaviour
 
             bullet.tracer.transform.position = hitInfo.point;
             bullet.time = maxLifeTime;
+
+
+            var rb2d = hitInfo.collider.GetComponent<Rigidbody>();
+            if (rb2d)
+            {
+                rb2d.AddForceAtPosition(ray.direction * 20, hitInfo.point, ForceMode.Impulse);
+            }
+
         } else
         {
-            bullet.tracer.transform.position = end;
+            bullet.tracer.transform.position = end; 
         }
     }
 
     private void FireBullet()
     {
+        if (ammoCount <= 0)
+        {
+            return;
+        }
+        ammoCount--;
+
         foreach (var particle in muzzleFlash)
         {
             particle.Emit(1);
@@ -121,6 +150,8 @@ public class RaycastWeapon : MonoBehaviour
         Vector3 velocity = (raycastDestination.position - raycastOrigin.position).normalized * bulletSpeed;
         var bullet = CreateBullet(raycastOrigin.position, velocity);
         bullets.Add(bullet);
+
+        recoil.GenerateRecoil(weaponName);
 
     }
 
