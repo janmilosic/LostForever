@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,6 +22,8 @@ public class CharacterLocomotion : MonoBehaviour
     Vector3 velocity;
     bool isJumping;
 
+    int isSprintingParam = Animator.StringToHash("isSprinting");
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,14 +40,23 @@ public class CharacterLocomotion : MonoBehaviour
         animator.SetFloat("InputX", input.x);
         animator.SetFloat("InputY", input.y);
 
+        UpdateIsSprinting();
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
         }
+
+    }
+
+    private void UpdateIsSprinting()
+    {
+        bool isSprinting = Input.GetKey(KeyCode.LeftShift);
+        animator.SetBool(isSprintingParam, isSprinting);
     }
 
     private void OnAnimatorMove()
-    {
+    {   
         rootMotion += animator.deltaPosition;
     }
 
@@ -111,22 +123,14 @@ public class CharacterLocomotion : MonoBehaviour
     {
         Rigidbody body = hit.collider.attachedRigidbody;
 
-        // no rigidbody
         if (body == null || body.isKinematic)
             return;
 
-        // We dont want to push objects below us
         if (hit.moveDirection.y < -0.3f)
             return;
 
-        // Calculate push direction from move direction,
-        // we only push objects to the sides never up and down
         Vector3 pushDir = new Vector3(hit.moveDirection.x, 0, hit.moveDirection.z);
 
-        // If you know how fast your character is trying to move,
-        // then you can also multiply the push velocity by that.
-
-        // Apply the push
         body.velocity = pushDir * pushPower;
     }
 
