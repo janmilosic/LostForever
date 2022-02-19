@@ -24,7 +24,7 @@ public class ActiveWeapon : MonoBehaviour
 
     RaycastWeapon weapon;
 
-    public Cinemachine.CinemachineFreeLook playerCamera;
+    public CharacterAiming characterAiming;
     public AmmoWidget ammoWidget;
 
     void Start()
@@ -88,7 +88,7 @@ public class ActiveWeapon : MonoBehaviour
 
         weapon = newWeapon;
         weapon.raycastDestination = crossHairTarget;
-        weapon.recoil.playerCamera = playerCamera;
+        weapon.recoil.characterAiming = characterAiming;
         weapon.recoil.rigController = rigController;
         weapon.transform.parent = weaponParent;
         weapon.transform.localPosition = Vector3.zero;

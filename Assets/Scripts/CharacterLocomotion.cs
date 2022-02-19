@@ -16,6 +16,7 @@ public class CharacterLocomotion : MonoBehaviour
 
     Animator animator;
     CharacterController cc;
+    CharacterAiming characterAiming;
     Vector2 input;
 
     Vector3 rootMotion;
@@ -29,6 +30,7 @@ public class CharacterLocomotion : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         cc = GetComponent<CharacterController>();
+        characterAiming = GetComponent<CharacterAiming>();
     }
 
     // Update is called once per frame
@@ -48,6 +50,7 @@ public class CharacterLocomotion : MonoBehaviour
         }
 
     }
+
 
     private void UpdateIsSprinting()
     {
