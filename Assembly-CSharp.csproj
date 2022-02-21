@@ -60,16 +60,16 @@
     <Compile Include="Assets\Scripts\CrossHairTarget.cs" />
     <Compile Include="Assets\Scripts\CharacterLocomotion.cs" />
     <Compile Include="Assets\GrassShader\GeometryGrassPainter.cs" />
-    <Compile Include="Assets\WeaponRecoil.cs" />
+    <Compile Include="Assets\Scripts\WeaponRecoil.cs" />
     <Compile Include="Assets\Scripts\RaycastWeapon.cs" />
     <Compile Include="Assets\Scripts\ActiveWeapon.cs" />
-    <Compile Include="Assets\WeaponPickUp.cs" />
-    <Compile Include="Assets\WeaponAnimationEvents.cs" />
-    <Compile Include="Assets\ReloadWeapon.cs" />
-    <Compile Include="Assets\AmmoWidget.cs" />
+    <Compile Include="Assets\Dialog\Dialog.cs" />
+    <Compile Include="Assets\Scripts\WeaponPickUp.cs" />
+    <Compile Include="Assets\Scripts\WeaponAnimationEvents.cs" />
+    <Compile Include="Assets\Scripts\ReloadWeapon.cs" />
+    <Compile Include="Assets\Scripts\AmmoWidget.cs" />
     <Compile Include="Assets\Scripts\CharacterAiming.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
-    <Compile Include="Assets\Dialog\Dialog.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
