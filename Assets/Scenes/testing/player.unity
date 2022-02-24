@@ -5470,15 +5470,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2216269915034120175, guid: f72de10fee58eb246ad480098f42a296, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5717544
+      value: 0.5830619
       objectReference: {fileID: 0}
     - target: {fileID: 2216269915034120175, guid: f72de10fee58eb246ad480098f42a296, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.699285
+      value: -2.582265
       objectReference: {fileID: 0}
     - target: {fileID: 2216269915034120176, guid: f72de10fee58eb246ad480098f42a296, type: 3}
       propertyPath: field of view
-      value: 37.65625
+      value: 40.5
       objectReference: {fileID: 0}
     - target: {fileID: 2216269915131506187, guid: f72de10fee58eb246ad480098f42a296, type: 3}
       propertyPath: m_RootOrder
@@ -5701,15 +5701,15 @@ PrefabInstance:
       objectReference: {fileID: 1917048982}
     - target: {fileID: 4603419691349399878, guid: 1932a0d3e7b3282429c66b5854529df5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5717544
+      value: 0.5830619
       objectReference: {fileID: 0}
     - target: {fileID: 4603419691349399878, guid: 1932a0d3e7b3282429c66b5854529df5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.699285
+      value: -2.582265
       objectReference: {fileID: 0}
     - target: {fileID: 4603419691349399879, guid: 1932a0d3e7b3282429c66b5854529df5, type: 3}
       propertyPath: m_Lens.FieldOfView
-      value: 37.65625
+      value: 40.5
       objectReference: {fileID: 0}
     - target: {fileID: 4603419691472341267, guid: 1932a0d3e7b3282429c66b5854529df5, type: 3}
       propertyPath: m_Data.m_SourceObjects.m_Item0.transform
@@ -5717,11 +5717,11 @@ PrefabInstance:
       objectReference: {fileID: 1917048982}
     - target: {fileID: 4603419691987440726, guid: 1932a0d3e7b3282429c66b5854529df5, type: 3}
       propertyPath: CameraDistance
-      value: 2.699285
+      value: 2.582265
       objectReference: {fileID: 0}
     - target: {fileID: 4603419691987440726, guid: 1932a0d3e7b3282429c66b5854529df5, type: 3}
       propertyPath: ShoulderOffset.x
-      value: 0.5717544
+      value: 0.5830619
       objectReference: {fileID: 0}
     - target: {fileID: 4603419692421698620, guid: 1932a0d3e7b3282429c66b5854529df5, type: 3}
       propertyPath: m_Data.m_SourceObjects.m_Item0.transform
