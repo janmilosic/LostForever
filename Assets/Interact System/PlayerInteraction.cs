@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
@@ -76,7 +78,7 @@ public class PlayerInteraction : MonoBehaviour
                 break;
             // here is started code for your custom interaction :)
             case Interactable.InteractionType.Minigame:
-                // here you make ur minigame appear
+                // random
                 break;
 
             // helpful error for us in the future

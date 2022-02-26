@@ -63,16 +63,19 @@
     <Compile Include="Assets\Scripts\WeaponRecoil.cs" />
     <Compile Include="Assets\Scripts\RaycastWeapon.cs" />
     <Compile Include="Assets\Scripts\ActiveWeapon.cs" />
-    <Compile Include="Assets\Dialog\Dialog.cs" />
+    <Compile Include="Assets\Interact System\PlayerInteraction.cs" />
+    <Compile Include="Assets\Interact System\Interactable.cs" />
     <Compile Include="Assets\Scripts\WeaponPickUp.cs" />
     <Compile Include="Assets\Scripts\WeaponAnimationEvents.cs" />
     <Compile Include="Assets\Scripts\ReloadWeapon.cs" />
     <Compile Include="Assets\Scripts\AmmoWidget.cs" />
     <Compile Include="Assets\Scripts\CharacterAiming.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
-    <Compile Include="Assets\Interact System\PlayerInteraction.cs" />
-    <Compile Include="Assets\Interact System\Interactable.cs" />
     <Compile Include="Assets\Interact System\LightSwitch.cs" />
+    <Compile Include="Assets\Dialogue\DialogueManager.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue.cs" />
+    <Compile Include="Assets\Dialogue\DialogueTrigger.cs" />
+    <Compile Include="Assets\Interact System\DialogueTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
