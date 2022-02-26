@@ -70,6 +70,9 @@
     <Compile Include="Assets\Scripts\AmmoWidget.cs" />
     <Compile Include="Assets\Scripts\CharacterAiming.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
+    <Compile Include="Assets\Interact System\PlayerInteraction.cs" />
+    <Compile Include="Assets\Interact System\Interactable.cs" />
+    <Compile Include="Assets\Interact System\LightSwitch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -38,8 +38,7 @@ public class RaycastWeapon : MonoBehaviour
     List<Bullet> bullets = new List<Bullet>();
     float maxLifeTime = 3.0f;
 
-
-    private void Awake()
+    void Awake()
     {
         recoil = GetComponent<WeaponRecoil>();
     }
@@ -132,6 +131,7 @@ public class RaycastWeapon : MonoBehaviour
         {
             bullet.tracer.transform.position = end; 
         }
+
     }
 
     private void FireBullet()
