@@ -17,6 +17,7 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         sentences = new Queue<string>();
+
     }
 
     public void StartDialogue (Dialogue dialogue)
@@ -50,13 +51,21 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         Debug.Log("End of conversation");
+        
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            DisplayNextSentence();
+            if (sentences.Count != 0)
+            {
+                DisplayNextSentence();
+            } else
+            {
+                EndDialogue();
+            }
+            
         }
     }
 
