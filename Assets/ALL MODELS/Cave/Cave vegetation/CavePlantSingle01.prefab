@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 668916642026149910}
   - component: {fileID: 3363220723177893084}
   - component: {fileID: 390926226792154687}
+  - component: {fileID: 6810450758987947011}
   m_Layer: 0
   m_Name: CavePlantSingle01
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3867592750760168713}
   m_LocalRotation: {x: -0.70575255, y: -0.043741193, z: 0.04374126, w: 0.7057526}
-  m_LocalPosition: {x: 546.04584, y: 16.116392, z: 716.18274}
+  m_LocalPosition: {x: 546.04584, y: 16.116392, z: 716.1827}
   m_LocalScale: {x: 45.06112, y: 45.06112, z: 45.061115}
   m_Children: []
   m_Father: {fileID: 0}
@@ -96,3 +97,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2534964839176971238, guid: 724123039815cce4d9466333fd133148, type: 3}
+--- !u!95 &6810450758987947011
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3867592750760168713}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 89164500b8967f846a288db26c0c102c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
