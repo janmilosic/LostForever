@@ -108,7 +108,7 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
-    agentSlope: 45
+    agentSlope: 42
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
@@ -1616,6 +1616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PineNoLeaves03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b0cbff0406bd5b244af24f210a06724c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cbff0406bd5b244af24f210a06724c, type: 3}
 --- !u!4 &203742756 stripped
@@ -1698,6 +1702,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 769de34e9d3117148aa0b7b41d9f4967, type: 3}
       propertyPath: m_Name
       value: Comet_Test
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 769de34e9d3117148aa0b7b41d9f4967, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 769de34e9d3117148aa0b7b41d9f4967, type: 3}
@@ -3077,6 +3085,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9db7bdb657beabc41b08c7ac549c38d4, type: 3}
       propertyPath: m_Name
       value: PineNoLeaves04
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9db7bdb657beabc41b08c7ac549c38d4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9db7bdb657beabc41b08c7ac549c38d4, type: 3}
@@ -5109,6 +5121,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1322058ddba62b04b81b4e0c5e30ff96, type: 3}
       propertyPath: m_Name
       value: mushroom01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1322058ddba62b04b81b4e0c5e30ff96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1322058ddba62b04b81b4e0c5e30ff96, type: 3}
@@ -7628,6 +7644,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PineNoLeaves03
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b0cbff0406bd5b244af24f210a06724c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cbff0406bd5b244af24f210a06724c, type: 3}
 --- !u!1 &1197086119 stripped
@@ -9090,7 +9110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f362efff30d57d843aaf9010e90e80ab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 670.765
+      value: 670.701
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f362efff30d57d843aaf9010e90e80ab, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9127,6 +9147,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f362efff30d57d843aaf9010e90e80ab, type: 3}
       propertyPath: m_Name
       value: PineNoLeaves02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f362efff30d57d843aaf9010e90e80ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f362efff30d57d843aaf9010e90e80ab, type: 3}
@@ -11415,6 +11439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mushroom01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1322058ddba62b04b81b4e0c5e30ff96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1322058ddba62b04b81b4e0c5e30ff96, type: 3}
 --- !u!1001 &1829908977
@@ -11724,6 +11752,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0d584bd47eadc3447861ecc3fd841b93, type: 3}
       propertyPath: m_Name
       value: PineNoLeavesBroken
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d584bd47eadc3447861ecc3fd841b93, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d584bd47eadc3447861ecc3fd841b93, type: 3}
@@ -12159,6 +12191,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1322058ddba62b04b81b4e0c5e30ff96, type: 3}
       propertyPath: m_Name
       value: mushroom01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1322058ddba62b04b81b4e0c5e30ff96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1322058ddba62b04b81b4e0c5e30ff96, type: 3}
@@ -13557,7 +13593,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &849826533288330308
 MeshCollider:
