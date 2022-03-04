@@ -237,8 +237,8 @@
      <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Generation\GraphCode.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Generation\Enumerations\ZWrite.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Math\Trigonometry\RadiansToDegreesNode.cs" />
-     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Math\Matrix\MatrixConstructionNode.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Graphs\GradientInputMaterialSlot.cs" />
+     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Math\Matrix\MatrixConstructionNode.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Drawing\Inspector\TabbedView\TabButton.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Generation\SubTarget.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Data\Nodes\Channel\SplitNode.cs" />

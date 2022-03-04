@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637806372136816851
-    m_Hash: 2221347944
+      ticks: 637820229649383610
+    m_Hash: 1693073628
   m_LockFileStatus:
     m_FilePath: C:/Users/milos/Desktop/Unity/Projects/Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637806372327669604
-    m_Hash: 49220391
+      ticks: 637820229649493324
+    m_Hash: 4069576056
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -273,12 +273,12 @@ m_PackageAssets:
         url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
         revision: 0eef4802dbe9ea60fc58767471ce4c5ea86632de
         path: 
-    - packageId: com.unity.collab-proxy@1.15.7
+    - packageId: com.unity.collab-proxy@1.15.13
       testable: 0
       isDirectDependency: 1
-      version: 1.15.7
+      version: 1.15.13
       source: 1
-      resolvedPath: C:\Users\milos\Desktop\Unity\Projects\Game\Library\PackageCache\com.unity.collab-proxy@1.15.7
+      resolvedPath: C:\Users\milos\Desktop\Unity\Projects\Game\Library\PackageCache\com.unity.collab-proxy@1.15.13
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -328,11 +328,13 @@ m_PackageAssets:
         - 1.14.7
         - 1.14.9
         - 1.14.12
+        - 1.14.13
         - 1.15.1
         - 1.15.4
         - 1.15.7
         - 1.15.9
         - 1.15.12
+        - 1.15.13
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -347,6 +349,7 @@ m_PackageAssets:
         - 1.15.7
         - 1.15.9
         - 1.15.12
+        - 1.15.13
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -357,15 +360,11 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.15.12
+        verified: 1.15.13
       dependencies:
-      - name: com.unity.nuget.newtonsoft-json
-        version: 2.0.0
       - name: com.unity.services.core
         version: 1.0.1
       resolvedDependencies:
-      - name: com.unity.nuget.newtonsoft-json
-        version: 2.0.0
       - name: com.unity.services.core
         version: 1.0.1
       - name: com.unity.modules.unitywebrequest
@@ -396,13 +395,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637744672890000000
+      datePublishedTicks: 637807003040000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: d208594e5483cdf10d303b6ee17df4d6bf58d3de
+        revision: 825774911ad2d1440ac844c9be1ae2c9b5dc7966
         path: 
     - packageId: com.unity.formats.fbx@4.1.2
       testable: 0
@@ -869,12 +868,12 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/polybrush.git
         revision: 55f0abdbad1d1c08e999a55237499f00b0ce91b9
         path: 
-    - packageId: com.unity.postprocessing@3.0.3
+    - packageId: com.unity.postprocessing@3.2.1
       testable: 0
       isDirectDependency: 1
-      version: 3.0.3
+      version: 3.2.1
       source: 1
-      resolvedPath: C:\Users\milos\Desktop\Unity\Projects\Game\Library\PackageCache\com.unity.postprocessing@3.0.3
+      resolvedPath: C:\Users\milos\Desktop\Unity\Projects\Game\Library\PackageCache\com.unity.postprocessing@3.2.1
       assetPath: Packages/com.unity.postprocessing
       name: com.unity.postprocessing
       displayName: Post Processing
@@ -925,6 +924,7 @@ m_PackageAssets:
         - 3.1.0
         - 3.1.1
         - 3.2.0
+        - 3.2.1
         compatible:
         - 2.3.0
         - 3.0.1
@@ -932,7 +932,8 @@ m_PackageAssets:
         - 3.1.0
         - 3.1.1
         - 3.2.0
-        verified: 3.2.0
+        - 3.2.1
+        verified: 3.2.1
       dependencies:
       - name: com.unity.modules.physics
         version: 1.0.0
@@ -952,13 +953,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637496860130000000
+      datePublishedTicks: 637810554450000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/Graphics.git
-        revision: 267c9ab2b6aae8e296d78e27ca27af29b3bc7606
+        url: https://github.com/Unity-Technologies/Graphics.git
+        revision: ffa21b54c20545786dd5e691f58f41468f0c153a
         path: 
     - packageId: com.unity.probuilder@4.5.2
       testable: 0
@@ -1867,6 +1868,7 @@ m_PackageAssets:
         - 1.6.4
         - 1.7.0-pre.1
         - 1.7.0-pre.2
+        - 1.7.0
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -1893,6 +1895,7 @@ m_PackageAssets:
         - 1.6.4
         - 1.7.0-pre.1
         - 1.7.0-pre.2
+        - 1.7.0
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -4415,82 +4418,6 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/com.autodesk.fbx.git
         revision: b6cd1211ff8824752e3dcbf05f426bac266606a0
         path: 
-    - packageId: com.unity.nuget.newtonsoft-json@2.0.0
-      testable: 0
-      isDirectDependency: 0
-      version: 2.0.0
-      source: 1
-      resolvedPath: C:\Users\milos\Desktop\Unity\Projects\Game\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
-      assetPath: Packages/com.unity.nuget.newtonsoft-json
-      name: com.unity.nuget.newtonsoft-json
-      displayName: Newtonsoft Json
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
-        Currently synced to version 12.0.2.
-
-
-        This package is used for advanced
-        json serialization and deserialization. Most Unity users will be better suited
-        using the existing json tools built into Unity.
-
-        To avoid assembly
-        clashes, please use this package if you intend to use Newtonsoft Json.'
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.0-preview.2
-        - 1.0.0-preview.3
-        - 1.0.0-preview.4
-        - 1.0.1-preview.1
-        - 1.1.2
-        - 2.0.0-preview
-        - 2.0.0-preview.1
-        - 2.0.0-preview.2
-        - 2.0.0
-        - 2.0.1-preview.1
-        - 2.0.2
-        compatible:
-        - 1.0.0-preview.2
-        - 1.0.0-preview.3
-        - 1.0.0-preview.4
-        - 1.0.1-preview.1
-        - 1.1.2
-        - 2.0.0-preview
-        - 2.0.0-preview.1
-        - 2.0.0-preview.2
-        - 2.0.0
-        - 2.0.1-preview.1
-        - 2.0.2
-        verified: 2.0.2
-      dependencies: []
-      resolvedDependencies: []
-      keywords: []
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637237898320000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
-        revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
-        path: 
     - packageId: com.unity.services.core@1.0.1
       testable: 0
       isDirectDependency: 0
@@ -4522,6 +4449,8 @@ m_PackageAssets:
         - 1.1.0-pre.10
         - 1.1.0-pre.11
         - 1.1.0-pre.41
+        - 1.1.0-pre.69
+        - 1.2.0
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -4530,6 +4459,8 @@ m_PackageAssets:
         - 1.1.0-pre.10
         - 1.1.0-pre.11
         - 1.1.0-pre.41
+        - 1.1.0-pre.69
+        - 1.2.0
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -4686,6 +4617,7 @@ m_PackageAssets:
         - 1.6.3
         - 1.6.4
         - 1.7.0-pre.1
+        - 1.7.0
         compatible:
         - 1.1.1
         - 1.1.2
@@ -4765,6 +4697,7 @@ m_PackageAssets:
         - 1.6.3
         - 1.6.4
         - 1.7.0-pre.1
+        - 1.7.0
         verified: 1.4.11
       dependencies:
       - name: com.unity.mathematics
