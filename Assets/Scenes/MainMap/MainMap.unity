@@ -2380,7 +2380,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2216269915034120175, guid: f72de10fee58eb246ad480098f42a296, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 534.55444
+      value: 534.56476
       objectReference: {fileID: 0}
     - target: {fileID: 2216269915034120175, guid: f72de10fee58eb246ad480098f42a296, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2388,7 +2388,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2216269915034120175, guid: f72de10fee58eb246ad480098f42a296, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 731.39514
+      value: 731.36896
       objectReference: {fileID: 0}
     - target: {fileID: 2216269915034120175, guid: f72de10fee58eb246ad480098f42a296, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2404,7 +2404,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2216269915034120176, guid: f72de10fee58eb246ad480098f42a296, type: 3}
       propertyPath: field of view
-      value: 36.15491
+      value: 35.38555
       objectReference: {fileID: 0}
     - target: {fileID: 2216269915131506187, guid: f72de10fee58eb246ad480098f42a296, type: 3}
       propertyPath: m_RootOrder
@@ -2939,7 +2939,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 85264c403d454e6418f00a2f181551ef, type: 2}
     - target: {fileID: 4603419691349399878, guid: 1932a0d3e7b3282429c66b5854529df5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.59830076
+      value: 0.60106355
       objectReference: {fileID: 0}
     - target: {fileID: 4603419691349399878, guid: 1932a0d3e7b3282429c66b5854529df5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2947,19 +2947,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4603419691349399878, guid: 1932a0d3e7b3282429c66b5854529df5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.4240966
+      value: -2.3960898
       objectReference: {fileID: 0}
     - target: {fileID: 4603419691349399879, guid: 1932a0d3e7b3282429c66b5854529df5, type: 3}
       propertyPath: m_Lens.FieldOfView
-      value: 36.15491
+      value: 35.38555
       objectReference: {fileID: 0}
     - target: {fileID: 4603419691987440726, guid: 1932a0d3e7b3282429c66b5854529df5, type: 3}
       propertyPath: CameraDistance
-      value: 2.424077
+      value: 2.396068
       objectReference: {fileID: 0}
     - target: {fileID: 4603419691987440726, guid: 1932a0d3e7b3282429c66b5854529df5, type: 3}
       propertyPath: ShoulderOffset.x
-      value: 0.5983475
+      value: 0.601054
       objectReference: {fileID: 0}
     - target: {fileID: 4812727399864643394, guid: 1932a0d3e7b3282429c66b5854529df5, type: 3}
       propertyPath: m_Materials.Array.data[0]
