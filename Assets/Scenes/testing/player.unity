@@ -1405,7 +1405,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 35.38555
+  field of view: 34.71236
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1431,7 +1431,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 263148205}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6156387, y: 1.726, z: -2.245133}
+  m_LocalPosition: {x: 0.6161838, y: 1.726, z: -2.239491}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1917048982}
@@ -3615,7 +3615,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838074945}
   m_LocalRotation: {x: 0.24053445, y: -0.16587973, z: 0.043327976, w: 0.9553794}
-  m_LocalPosition: {x: 0.6156387, y: 1.726, z: -2.245133}
+  m_LocalPosition: {x: 0.6161838, y: 1.726, z: -2.239491}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1810648913}
@@ -3643,7 +3643,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 1811094830}
   m_Lens:
-    FieldOfView: 35.38555
+    FieldOfView: 34.71236
     OrthographicSize: 5
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -8035,7 +8035,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24184
+  m_Name: pb_Mesh140936
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10295,10 +10295,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damping: {x: 0, y: 0, z: 0}
-  ShoulderOffset: {x: 0.6156387, y: -0.4, z: 0}
+  ShoulderOffset: {x: 0.6161838, y: -0.4, z: 0}
   VerticalArmLength: 0.4
   CameraSide: 1
-  CameraDistance: 2.245133
+  CameraDistance: 2.239491
   CameraCollisionFilter:
     serializedVersion: 2
     m_Bits: 1
