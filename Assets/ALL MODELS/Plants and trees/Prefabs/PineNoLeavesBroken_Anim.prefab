@@ -817,6 +817,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7841204871637800330}
   - component: {fileID: 4193311526682447856}
+  - component: {fileID: 3948400879350319043}
   m_Layer: 0
   m_Name: PineNoLeavesBroken_Anim
   m_TagString: Untagged
@@ -831,7 +832,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7465383673512644400}
-  m_LocalRotation: {x: -0, y: 0.938988, z: -0, w: -0.34394994}
+  m_LocalRotation: {x: 0, y: 0.93898934, z: -0, w: -0.34394634}
   m_LocalPosition: {x: 545.943, y: 21.81, z: 669.3735}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -860,6 +861,33 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!205 &3948400879350319043
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7465383673512644400}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.12346578, y: 3.2392151, z: 0.15430164}
+  m_Size: 6.5099616
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2351424458453697559}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2351424458453697559}
+  - screenRelativeHeight: 0.08615058
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2351424458453697559}
+  m_Enabled: 1
 --- !u!1 &7735837481754992402
 GameObject:
   m_ObjectHideFlags: 0
