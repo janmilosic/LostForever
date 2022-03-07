@@ -56,11 +56,9 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GrassShader\GrassPainterEditor.cs" />
     <Compile Include="Assets\Scripts\CrossHairTarget.cs" />
     <Compile Include="Assets\Dialogue\Dialogue.cs" />
     <Compile Include="Assets\Scripts\CharacterLocomotion.cs" />
-    <Compile Include="Assets\GrassShader\GeometryGrassPainter.cs" />
     <Compile Include="Assets\Scripts\WeaponRecoil.cs" />
     <Compile Include="Assets\Scripts\RaycastWeapon.cs" />
     <Compile Include="Assets\Interact System\DialogueTest.cs" />
@@ -78,6 +76,8 @@
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Interact System\LightSwitch.cs" />
     <Compile Include="Assets\AI\CustomBullet.cs" />
+    <Compile Include="Assets\GrassShader\GeometryGrassPainter.cs" />
+    <Compile Include="Assets\GrassShader\GrassPainterEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
