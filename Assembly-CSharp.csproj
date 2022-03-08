@@ -56,6 +56,8 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GrassShader\GeometryGrassPainter.cs" />
+    <Compile Include="Assets\GrassShader\GrassPainterEditor.cs" />
     <Compile Include="Assets\Scripts\CrossHairTarget.cs" />
     <Compile Include="Assets\Dialogue\Dialogue.cs" />
     <Compile Include="Assets\Scripts\CharacterLocomotion.cs" />
@@ -76,8 +78,7 @@
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Interact System\LightSwitch.cs" />
     <Compile Include="Assets\AI\CustomBullet.cs" />
-    <Compile Include="Assets\GrassShader\GeometryGrassPainter.cs" />
-    <Compile Include="Assets\GrassShader\GrassPainterEditor.cs" />
+    <Compile Include="Assets\MainMenu\MenuController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -861,6 +862,18 @@
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
       <Project>{70F7069A-B7A0-4343-6F55-9B695FD7C118}</Project>
       <Name>Unity.RenderPipelines.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlayerPrefsEditor.Editor.csproj">
+      <Project>{EF92A71D-C167-4A8E-49DD-E046E6DC2E37}</Project>
+      <Name>Unity.PlayerPrefsEditor.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlayerPrefsEditor.Samples.SampleScene.csproj">
+      <Project>{10726C4D-A329-99E2-C292-916CD99431FB}</Project>
+      <Name>Unity.PlayerPrefsEditor.Samples.SampleScene</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlayerPrefsEditor.EditorResources.csproj">
+      <Project>{D388887E-6D25-A559-4253-4D5666063225}</Project>
+      <Name>Unity.PlayerPrefsEditor.EditorResources</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
