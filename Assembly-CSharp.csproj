@@ -60,6 +60,7 @@
     <Compile Include="Assets\GrassShader\GrassPainterEditor.cs" />
     <Compile Include="Assets\Scripts\CrossHairTarget.cs" />
     <Compile Include="Assets\Dialogue\Dialogue.cs" />
+    <Compile Include="Assets\MainMenu\MenuController.cs" />
     <Compile Include="Assets\Scripts\CharacterLocomotion.cs" />
     <Compile Include="Assets\Scripts\WeaponRecoil.cs" />
     <Compile Include="Assets\Scripts\RaycastWeapon.cs" />
@@ -78,7 +79,7 @@
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Interact System\LightSwitch.cs" />
     <Compile Include="Assets\AI\CustomBullet.cs" />
-    <Compile Include="Assets\MainMenu\MenuController.cs" />
+    <Compile Include="Assets\MainMenu\LoadPrefs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -747,6 +748,10 @@
       <Project>{4FEF352C-B818-861B-23FD-0B9FAC69A259}</Project>
       <Name>Unity.Formats.Fbx.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.PlayerPrefsEditor.Samples.SampleScene.csproj">
+      <Project>{10726C4D-A329-99E2-C292-916CD99431FB}</Project>
+      <Name>Unity.PlayerPrefsEditor.Samples.SampleScene</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
       <Project>{C1011C81-6D38-F633-59B6-5D1C1436E154}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
@@ -758,6 +763,10 @@
     <ProjectReference Include="Unity.Animation.Rigging.Editor.csproj">
       <Project>{6ED68196-8243-0B22-43EA-BB4C8172201A}</Project>
       <Name>Unity.Animation.Rigging.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlayerPrefsEditor.EditorResources.csproj">
+      <Project>{D388887E-6D25-A559-4253-4D5666063225}</Project>
+      <Name>Unity.PlayerPrefsEditor.EditorResources</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualEffectGraph.Editor.csproj">
       <Project>{FDAB4CC3-B27A-C168-FAF9-49C642837198}</Project>
@@ -831,6 +840,10 @@
       <Project>{DAB79A3E-2D0F-06C3-B17F-AFC43ECA9EBC}</Project>
       <Name>Unity.TerrainTools</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.PlayerPrefsEditor.Editor.csproj">
+      <Project>{EF92A71D-C167-4A8E-49DD-E046E6DC2E37}</Project>
+      <Name>Unity.PlayerPrefsEditor.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Burst.csproj">
       <Project>{CE4EF471-D962-1404-B2EB-772E8D6AEF06}</Project>
       <Name>Unity.Burst</Name>
@@ -862,18 +875,6 @@
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
       <Project>{70F7069A-B7A0-4343-6F55-9B695FD7C118}</Project>
       <Name>Unity.RenderPipelines.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlayerPrefsEditor.Editor.csproj">
-      <Project>{EF92A71D-C167-4A8E-49DD-E046E6DC2E37}</Project>
-      <Name>Unity.PlayerPrefsEditor.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlayerPrefsEditor.Samples.SampleScene.csproj">
-      <Project>{10726C4D-A329-99E2-C292-916CD99431FB}</Project>
-      <Name>Unity.PlayerPrefsEditor.Samples.SampleScene</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlayerPrefsEditor.EditorResources.csproj">
-      <Project>{D388887E-6D25-A559-4253-4D5666063225}</Project>
-      <Name>Unity.PlayerPrefsEditor.EditorResources</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
