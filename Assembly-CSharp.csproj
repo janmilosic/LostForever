@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\WeaponRecoil.cs" />
     <Compile Include="Assets\Scripts\RaycastWeapon.cs" />
     <Compile Include="Assets\Interact System\DialogueTest.cs" />
+    <Compile Include="Assets\MainMenu\LoadPrefs.cs" />
     <Compile Include="Assets\Dialogue\DialogueTrigger.cs" />
     <Compile Include="Assets\Scripts\ActiveWeapon.cs" />
     <Compile Include="Assets\Interact System\PlayerInteraction.cs" />
@@ -79,7 +80,7 @@
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Interact System\LightSwitch.cs" />
     <Compile Include="Assets\AI\CustomBullet.cs" />
-    <Compile Include="Assets\MainMenu\LoadPrefs.cs" />
+    <Compile Include="Assets\MainMenu\ButtonsAudioController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
