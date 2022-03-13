@@ -145,6 +145,7 @@ public class RaycastWeapon : MonoBehaviour
         foreach (var particle in muzzleFlash)
         {
             particle.Emit(1);
+            FindObjectOfType<AudioManager>().Play("GunShoot");
         }
 
         Vector3 velocity = (raycastDestination.position - raycastOrigin.position).normalized * bulletSpeed;

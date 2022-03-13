@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.Animations;
+using UnityEngine.Animations;
 
 public class ActiveWeapon : MonoBehaviour
 {
@@ -12,6 +12,7 @@ public class ActiveWeapon : MonoBehaviour
 
     public Transform crossHairTarget;
     public UnityEngine.Animations.Rigging.Rig handIK;
+    public UnityEngine.Animations.Rigging.Rig handIKDown;
     public Transform weaponParent;
     public Transform weaponLeftGrip;
     public Transform weaponRightGrip;
@@ -52,8 +53,9 @@ public class ActiveWeapon : MonoBehaviour
     }
 
     void Update()
-    {
+    {   
         var weapon = GetWeapon(activeWeaponIndex);
+       
         if (weapon) {
             if (Input.GetButtonDown("Fire1"))
             {
@@ -72,6 +74,12 @@ public class ActiveWeapon : MonoBehaviour
             {
                 bool isHolstered = rigController.GetBool("holster_weapon");
                 rigController.SetBool("holster_weapon", !isHolstered);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                handIKDown.weight = 0f;
+                rigController.Play("character_unarmed");
+                Destroy(weapon.gameObject);
             }
         } 
     }

@@ -23,6 +23,6 @@ MonoBehaviour:
     m_FieldOfView: 17
   - m_Name: 125mm
     m_FieldOfView: 10
-  - m_Name: const 45
-    m_FieldOfView: 45
+  - m_Name: const 42
+    m_FieldOfView: 42
   m_PhysicalPresets: []

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.UI;
+using UnityEngine.UI;
 using TMPro;
 
 public class DialogueManager : MonoBehaviour
@@ -9,6 +9,8 @@ public class DialogueManager : MonoBehaviour
 
     public TMP_Text nameText;
     public TMP_Text dialogueText;
+
+    public GameObject dialogueBox;
 
     public float typingSpeed = 0.02f;
 
@@ -22,6 +24,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue (Dialogue dialogue)
     {
+        dialogueBox.SetActive(true);
 
         nameText.text = dialogue.name;
 
@@ -51,6 +54,7 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         Debug.Log("End of conversation");
+        dialogueBox.SetActive(false);
         
     }
 

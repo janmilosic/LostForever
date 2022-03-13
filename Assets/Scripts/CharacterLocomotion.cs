@@ -14,6 +14,10 @@ public class CharacterLocomotion : MonoBehaviour
     public float groundSpeed;
     public float pushPower;
 
+    public float old_posX;
+    public float old_posZ;
+    public bool walkPlaying;
+
     Animator animator;
     CharacterController cc;
     CharacterAiming characterAiming;
@@ -31,6 +35,10 @@ public class CharacterLocomotion : MonoBehaviour
         animator = GetComponent<Animator>();
         cc = GetComponent<CharacterController>();
         characterAiming = GetComponent<CharacterAiming>();
+
+        old_posX = transform.position.x;
+        old_posZ = transform.position.z;
+        walkPlaying = false;
     }
 
     // Update is called once per frame
@@ -47,10 +55,40 @@ public class CharacterLocomotion : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
+            FindObjectOfType<AudioManager>().Play("PlayerJump");
         }
+
+        isMoving();
 
     }
 
+    public void isMoving()
+    {
+        if (!isJumping)
+        {
+            if (old_posX != transform.position.x || old_posZ != transform.position.z)
+            {
+                if (walkPlaying == false)
+                {
+                    FindObjectOfType<AudioManager>().Play("PlayerWalk");
+                    walkPlaying = true;
+                }
+            } 
+            else
+            {
+                walkPlaying = false;
+                FindObjectOfType<AudioManager>().StopPlaying("PlayerWalk");
+            }
+        }
+        else
+        {
+            walkPlaying = false;
+            FindObjectOfType<AudioManager>().StopPlaying("PlayerWalk");
+        }
+        
+        old_posX = transform.position.x;
+        old_posZ = transform.position.z;
+    }
 
     private void UpdateIsSprinting()
     {

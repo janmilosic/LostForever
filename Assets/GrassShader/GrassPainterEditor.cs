@@ -1,4 +1,6 @@
+/*
 using UnityEditor;
+using UnityEngine.Internal;
 using UnityEditorInternal;
 using UnityEngine;
 
@@ -47,10 +49,10 @@ public class GrassPainterEditor : Editor
         grassPainter.toolbarInt = GUILayout.Toolbar(grassPainter.toolbarInt, toolbarStrings);
         EditorGUILayout.Space();
         EditorGUILayout.LabelField("Brush Settings", EditorStyles.boldLabel);
-        LayerMask tempMask = EditorGUILayout.MaskField("Hit Mask", InternalEditorUtility.LayerMaskToConcatenatedLayersMask(grassPainter.hitMask), InternalEditorUtility.layers);
-        grassPainter.hitMask = InternalEditorUtility.ConcatenatedLayersMaskToLayerMask(tempMask);
-        LayerMask tempMask2 = EditorGUILayout.MaskField("Painting Mask", InternalEditorUtility.LayerMaskToConcatenatedLayersMask(grassPainter.paintMask), InternalEditorUtility.layers);
-        grassPainter.paintMask = InternalEditorUtility.ConcatenatedLayersMaskToLayerMask(tempMask2);
+        // LayerMask tempMask = EditorGUILayout.MaskField("Hit Mask",InternalEditorUtility .LayerMaskToConcatenatedLayersMask(grassPainter.hitMask), InternalEditorUtility.layers);
+        // grassPainter.hitMask = InternalEditorUtility.ConcatenatedLayersMaskToLayerMask(tempMask);
+        // LayerMask tempMask2 = EditorGUILayout.MaskField("Painting Mask", InternalEditorUtility.LayerMaskToConcatenatedLayersMask(grassPainter.paintMask), InternalEditorUtility.layers);
+        //grassPainter.paintMask = InternalEditorUtility.ConcatenatedLayersMaskToLayerMask(tempMask2);
 
         grassPainter.brushSize = EditorGUILayout.Slider("Brush Size", grassPainter.brushSize, 0.1f, 10f);
         grassPainter.density = EditorGUILayout.Slider("Density", grassPainter.density, 0.1f, 10f);
@@ -80,3 +82,4 @@ public class GrassPainterEditor : Editor
     }
 
 }
+*/

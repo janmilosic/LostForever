@@ -10,6 +10,8 @@ public class DialogueTest : Interactable
     public Image background;
     public TMP_Text next;
 
+    public bool active ;
+
     DialogueTrigger dialogueTrigger;
 
     private void Awake()
@@ -19,7 +21,11 @@ public class DialogueTest : Interactable
 
     public void Start()
     {
-        UpdateDialogue();
+        if (active == false)
+        {
+            UpdateDialogue();
+        }
+        
     }
 
     void UpdateDialogue()
@@ -27,6 +33,7 @@ public class DialogueTest : Interactable
         dialogueTrigger.TriggerDialogue();
         background.enabled = true;
         next.enabled = true;
+        active = true;
     }
 
     public override string GetDescription()
@@ -37,7 +44,11 @@ public class DialogueTest : Interactable
 
     public override void Interact()
     {
-        dialogue = !dialogue;
-        UpdateDialogue();
+        
+        if (active == false)
+        {
+            UpdateDialogue();
+            dialogue = !dialogue;
+        }
     }
 }

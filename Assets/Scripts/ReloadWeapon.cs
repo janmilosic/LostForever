@@ -23,9 +23,10 @@ public class ReloadWeapon : MonoBehaviour
         RaycastWeapon weapon = activeWeapon.GetActiveWeapon();
         if (weapon)
         {
-            if (Input.GetKeyDown(KeyCode.R) || weapon.ammoCount <= 0)
+            if (Input.GetKeyDown(KeyCode.R)) //  || weapon.ammoCount <= 0
             {
                 rigController.SetTrigger("reload_weapon");
+                FindObjectOfType<AudioManager>().Play("GunReload");
             }
             if (weapon.isFiring)
             {
